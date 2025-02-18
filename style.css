@@ -1,0 +1,80 @@
+
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+.head , .pie {
+
+background-color: rgb(178, 171, 171);
+padding: 2rem;
+
+}
+.head ul {
+font-size: 2rem;
+font-family: cursive;
+display: flex;
+justify-content: space-around;
+
+  list-style: none;
+& a {
+    color: rgb(255, 255, 255);
+text-decoration: none;
+
+}
+
+}
+
+.grantitle{
+font-size: 3rem;
+text-align: center;
+padding-top: 0.5rem;
+font-family: cursive;
+
+}
+.card__img--title{
+    width: 50%;
+
+}
+.card__text--button{
+
+width: 50%;
+
+
+}
+article{
+
+padding: 1rem;
+display: flex;
+
+}
+article p , h1 , img {
+
+    padding-bottom:1rem ;
+}
+.titleproject{
+color: red;
+font-size: 3rem;
+text-align:center ;
+margin: 2rem;
+}
+.imgproject{
+
+width: 300px;
+
+margin-left: 7rem;
+    border-radius: 5rem;
+}
+.botonarticle{
+font-size: 1.7rem;
+border-radius: 2rem;
+color: rgb(255, 255, 255);
+background-color: black;
+}
+article , p {
+    font-size: 2rem;
+    text-align: left;
+    display: flex
+;
+    align-items: center;
+}

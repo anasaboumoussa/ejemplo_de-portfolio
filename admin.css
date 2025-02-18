@@ -1,0 +1,113 @@
+
+
+   
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #2020f3, #ff89ff);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+h1{
+
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+    & a{
+    color: rgb(255, 255, 255);
+
+    }}
+
+.formulario {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.formulario h1 {
+text-align: center;
+padding: 0 0 20px 0;
+border-bottom: 1px solid silver;
+
+
+}
+
+
+#text{
+font-size: 1rem;
+
+
+}
+.input{
+background-color: rgb(227, 227, 227);
+padding: 0.35rem;
+border-radius: 2rem;
+
+
+}
+.input:hover{
+transition: 0.75s;
+border-radius: 2rem;
+padding: 0.45rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+#password{
+font-size: 1rem;
+
+}
+
+
+form .username {
+    position: relative;
+column-count: 1;
+margin-top: 6rem;
+margin-bottom: 1rem;
+text-align: center;
+font-size: 1.3rem;
+}
+form .contrasena {
+    position: relative;
+column-count: 1;
+
+font-size: 1.3rem;
+}
+form .recordar{
+
+text-align: end;
+margin-top: 1rem;
+
+}
+form .input{
+font-size: 1.3rem;
+    text-align: center;
+}
+form .registrarse{
+
+text-align: center;
+font-size:1.3rem ;
+margin-top: 2rem;
+}
+
+a{
+
+text-decoration: none;
+
+}
+a:hover{
+
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    transition: 1s;
+font-size: 1.4rem;
+    }
