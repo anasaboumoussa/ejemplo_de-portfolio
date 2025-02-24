@@ -1,14 +1,11 @@
-let frutas = ["manzana" , "lemon" , "pera","lemon" ]
-console.log(frutas[2])
-for(let i = 0 ; i <frutas.length; i++){
+const products = [];
+let LastId = 0;
 
-    console.log(frutas[i])
-}
-
-
-
-
-for(let i = 1; i<=10; i++){
-
-    console.log(i*2);
+function createProuduct(name,description,price){
+    LastId++;
+    id :LastId
+    name
+    description
+    price
+    //no hace falta poner price:price
 }
